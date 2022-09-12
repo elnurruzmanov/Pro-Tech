@@ -1,0 +1,89 @@
+.About {
+  background-color: #000000;
+}
+
+.About .container{
+  padding: 40px 20px
+}
+
+.About-info {
+  display: flex;
+}
+
+.about-title {
+  width: 30%;
+}
+
+.about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 101px;
+  color: #f9f6a9;
+}
+
+.about-text{
+  width: 60%;
+  margin-top: 90px;
+}
+
+.about-texts {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #f9f6a9;
+}
+
+/* Close About */
+
+ /*****************************/
+
+ /* Open Responsive */
+
+ @media (max-width: 680px) {
+  .container {
+    width: 650px;
+  }
+
+  .About-info{
+    display: flex;
+    flex-direction:column;
+  }
+
+  .about {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 90px;
+    margin-left: 40px;
+  }
+  
+  .about-text{
+    margin-top: 10px;
+  }
+
+  .about-texts {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  .about-text{
+    width: 70%;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: 650px;
+  }
+
+  .about-texts {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
