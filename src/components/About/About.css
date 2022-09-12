@@ -87,3 +87,9 @@
     line-height: 27px;
   }
 }
+
+@media (max-width: 280px) {
+  .container {
+    width: 250px;
+  }
+}
