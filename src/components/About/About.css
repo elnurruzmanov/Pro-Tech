@@ -43,9 +43,9 @@
 
  /* Open Responsive */
 
- @media (max-width: 680px) {
+ @media (max-width: 880px) {
   .container {
-    width: 650px;
+    width: 850px;
   }
 
   .About-info{
