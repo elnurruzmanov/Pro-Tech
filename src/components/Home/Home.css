@@ -1,0 +1,55 @@
+.Home {
+  background-image: url("../../assets/images/Home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.Home .container {
+  padding: 200px 100px;
+}
+
+/* HOME INFO */
+.home-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* OPEN home-title */
+
+.home-title{
+  width:325px
+}
+
+.home_title-info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 80px;
+  color: #f9f6a9;
+}
+
+/* OPEN home-form */
+.home-form{
+  padding: 30px;
+  background-color: #f9f6a9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.input{
+  margin: 20px 0px;
+  padding: 15px 8px;
+}
