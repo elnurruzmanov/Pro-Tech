@@ -1,7 +1,7 @@
 import React from "react";
 
 //Routers
-import { Routes, Route } from "react-router-dom";
+
 
 //components
 import Home from "./components/Home/Home";
@@ -16,17 +16,11 @@ function App() {
   return (
     <div className="App">
       <Home />
-
       <About />
-
       <Repair />
-
       <Services />
-
       <Clients />
-
       <Works />
-
       <Partners />
     </div>
   );
