@@ -1,0 +1,77 @@
+.repair {
+  background-color: #f9f6a9;
+}
+
+.repair .container {
+  padding: 40px 20px;
+}
+
+.repair-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+  text-align: center;
+  color: #000000;
+}
+
+.repair-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.repair-item {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 39px 0px;
+}
+
+.repair-item_info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+  height: 89px;
+}
+
+.repair-item_link {
+  border: 3px solid #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  margin-top:25px;
+  padding: 12px 30px;
+  transition: 0.3s;
+}
+
+.household-appliances{
+  height: 225px
+  ;
+}
+
+.repair-item_link:hover{
+  background-color: #000000;
+  color: #f9f6a9;
+}
+ /* Close Repair */
+
+
+ /*********************************/
+
+ /* OPEN RESPONSIVE */
+ 

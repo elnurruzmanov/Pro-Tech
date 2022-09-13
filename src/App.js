@@ -2,10 +2,13 @@ import React from "react";
 
 //Routers
 import { Routes, Route } from "react-router-dom";
-import About from "./components/About/About";
+
 
 //components
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Repair from "./components/Repair/Repair";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -15,6 +18,12 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/" element={<About />} />
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Repair />} />
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Services />} />
       </Routes>
     </div>
   );
