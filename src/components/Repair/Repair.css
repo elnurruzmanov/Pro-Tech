@@ -74,4 +74,71 @@
  /*********************************/
 
  /* OPEN RESPONSIVE */
+ .repair-swiper{
+  display: none;
+ }
+
  
+ @media (max-width:720px) {
+  .container{
+    width: 610px;
+    margin: 0 auto;
+  }
+.repair-list{
+  display: none;
+}
+.repair-swiper{
+display: block;
+}
+.repair-swiper .repair-item{
+  width: 100%;
+}
+ }
+
+ @media (max-width:620px) {
+  .container{
+    width: 510px;
+    margin: 0 auto;
+  }
+.repair-list{
+  display: none;
+}
+.repair-swiper{
+display: block;
+}
+.repair-swiper .repair-item{
+  width: 100%;
+}
+ }
+
+ @media (max-width:520px) {
+  .container{
+    width: 410px;
+    margin: 0 auto;
+  }
+.repair-list{
+  display: none;
+}
+.repair-swiper{
+display: block;
+}
+.repair-swiper .repair-item{
+  width: 100%;
+}
+ }
+
+ @media (max-width:420px) {
+  .container{
+    width: 310px;
+    margin: 0 auto;
+  }
+.repair-list{
+  display: none;
+}
+.repair-swiper{
+display: block;
+}
+.repair-swiper .repair-item{
+  width: 100%;
+}
+ }
