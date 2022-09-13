@@ -39,7 +39,7 @@ const Services = () => {
               <li className="services-item item4">
                 <img src={Like} alt="" className='services-img' />
                 <h4 className="services-item_title">High Quality</h4>
-                <p className="services-item-text">Qualitatively perform all the work. Save your time, money and aggravation.</p>
+                <p className="services-item-text">Qualitatively perform all the work.Save your time, money and aggravation.</p>
               </li>
             </ul>
           </div>
