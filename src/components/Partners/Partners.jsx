@@ -18,20 +18,18 @@ import Kitchen from "../../assets/icons/Kitchen.svg";
 import Air from "../../assets/icons/Jenn-air.svg";
 import Samsung from "../../assets/icons/Samsung.svg";
 
-//React Reveal
-import Bounce from "react-reveal/Bounce";
-import Zoom from "react-reveal/Zoom";
+
 
 const Partners = () => {
   return (
     <div className="partners">
       <div className="container">
         <hr className="hr" />
-        <Zoom right>
+      
           <h1 className="partners-title">Our partners</h1>
-        </Zoom>
+        
         <ul className="partners-list">
-          <Bounce left>
+          
             <li className="partners-item">
               <Link to="/">
                 <img src={Lg} alt="lg" />
@@ -47,8 +45,6 @@ const Partners = () => {
                 <img src={Subzero} alt="subzero" />
               </Link>
             </li>
-          </Bounce>
-          <Bounce right>
             <li className="partners-item">
               <Link to="/">
                 <img src={Wolf} alt="wolf" />
@@ -64,8 +60,7 @@ const Partners = () => {
                 <img src={Kenmore} alt="kenmore" />
               </Link>
             </li>
-          </Bounce>
-          <Bounce left>
+        
             <li className="partners-item">
               <Link to="/">
                 <img src={Electrolux} alt="electrolux" />
@@ -81,8 +76,7 @@ const Partners = () => {
                 <img src={Frigidaire} alt="Frigidaire" />
               </Link>
             </li>
-          </Bounce>
-          <Bounce right>
+    
             <li className="partners-item">
               <Link to="/">
                 <img src={Kitchen} alt="Frigidaire" />
@@ -98,7 +92,7 @@ const Partners = () => {
                 <img src={Samsung} alt="Samsung" />
               </Link>
             </li>
-          </Bounce>
+       
         </ul>
         <hr className="hr" />
       </div>
